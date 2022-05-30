@@ -1,0 +1,249 @@
+﻿body {
+    background-color: #dde4e6;
+}
+
+.Header {
+    background-color: #2F4F4F;
+    /* height: 80px; */
+
+    padding: 22px;
+}
+
+    .Header h2 {
+        color: white
+    }
+
+.InputBoxes {
+    margin-left: 26px;
+    margin-top: 40px;
+}
+
+input[type=text]  {
+    width: 74%;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.Logintxt {
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    Width: 74%;
+    Height: 22px;
+    padding: 6px 12px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.tablebtns {
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #2F4F4F;
+}
+    .tablebtns:hover {
+        background-color: #3276b1;
+        border-color: #285e8e;
+    }
+.declinebtn {
+    background-color:red;
+   
+}
+.declinebtn:hover
+{
+    background-color:darkred;
+}
+.LoginContainer {
+    text-align: center;
+    margin-left: 135px;
+    width: 685px;
+    padding-top: 44px;
+}
+    .Logintxt:focus {
+        border-color: #66afe9;
+        outline: 0;
+    }
+    input[type=text]:focus  {
+        border-color: #66afe9;
+        outline: 0;
+    
+    }
+
+    .logintext:focus {
+        border-color: #66afe9;
+        outline: 0;
+    }
+.ButtonSubmit {
+    background-color: #2F4F4F;
+    padding: 10px 20px;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+    .ButtonSubmit:hover {
+        background-color: #3276b1;
+        border-color: #285e8e;
+    }
+.loginbtn {
+    margin-top: 46px;
+    margin-right: 264px;
+}
+
+.btn {
+    color: #ffffff;
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add_deletbtn {
+    margin-top:10px;
+    margin-right:10px;
+}
+.viewbtn {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.RegesterContentbox {
+    background-color: white;
+    width: 1063px;
+    margin-left: 226px;
+    height: 970px
+}
+.Errormsg{
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+    color:red;
+}
+.ContentBox {
+    background-color: #ffff;
+    height: 600px;
+    width: 1063px;
+    margin-left: 226px;
+}
+.Ddl {
+    width: 74%;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 35px;
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+}
+.btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 75px;
+    padding: 10px 0 10px 0;
+}
+    .btn-default:hover {
+        background-color: #dde4e6;
+    }
+
+.InputBoxes span {
+    margin-right: 5px;
+    margin-left: 60px;
+}
+.menu-4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0px;
+}
+
+.style-4 {
+    background-color: black;
+    height: 728px;
+    padding-top: 1px;
+    margin-top: -16px;
+    width: 226px;
+    margin-left: -8px;
+    float: left;
+}
+
+.menu-4 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.menu-4 li {
+    display: inline-block;
+    list-style: outside none none;
+    
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.menu-4 a {
+    padding: 0.3em 0;
+    color: #212121;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+    color: #FFFFE0;
+}
+
+    .menu-4 a:before,
+    .menu-4 a:after {
+        position: absolute;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+        color:white;
+    }
+
+    .menu-4 a:before {
+        bottom: 100%;
+        display: block;
+        height: 3px;
+        width: 100%;
+        content: "";
+        background-color: #e67e22;
+        color: white;
+    }
+
+    .menu-4 a:after {
+        padding: 0.3em 0;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        content: attr(data-hover);
+        color: #212121;
+        white-space: nowrap;
+        color: white;
+    }
+
+.menu-4 li:hover a,
+.menu-4 .current a {
+    transform: translateY(100%);
+}
+

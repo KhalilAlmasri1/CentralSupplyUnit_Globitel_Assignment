@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeBehind="Menu.master.cs" Inherits="CentralSupplyUnit.Menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/StyleSheet1.css" rel="stylesheet" />
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>     
+    <form id="B" runat="server">
+    
+            <asp:ContentPlaceHolder ID="menu" runat="server">
+                <div class="style-4">
+       
+		<ul class="menu-4">
+            <li style="font-size:medium" >Central Supply Unit</li>
+            <asp:Panel id="M_Warehouse" runat="server" visible="false">
+		  <li><a href="AddWarehouse.aspx" data-hover="Add Warehouse">Add Warehouse</a></li>
+            </asp:Panel>
+            <asp:Panel id="M_ListOfWarehouses" runat="server" visible="False">
+		  <li><a href="ListOfWarehouses.aspx" data-hover="List Of Warehouses">List Of Warehouses</a></li>
+            </asp:Panel>
+            <asp:Panel id="M_ListOfSupplyDocuments" runat="server" visible="false">
+		  <li><a href="ListOfSupplyDocuments.aspx" data-hover="List Of Supply Document">List Of Supply Document</a></li>
+            </asp:Panel>
+            <asp:Panel id="M_AddSupplyDocuments" runat="server" visible="false">
+		  <li><a href="AddSupplyDocuments.aspx" data-hover="Add Supply Document">Add Supply Document</a></li></asp:Panel>
+            <asp:Panel id="M_MgrListOfSupplyDocuments" runat="server" visible="false">
+		  <li><a href="Mgr_ListOfSupplyDocuments" data-hover="For Manager">List Of Supply Document</a></li></asp:Panel>
+            <asp:Panel id="M_AdDNewEmployee" runat="server" visible="false">
+		  <li><a href="RegisterPage.aspx" data-hover="Add New Employee">Add New Employee</a></li></asp:Panel>
+            <asp:Panel id="M_Logout" runat="server" visible="false">
+          <li><a href="Login.aspx" data-hover="Logout">Logout</a></li></asp:Panel>
+		  </ul>
+          </div>
+            </asp:ContentPlaceHolder>
+        
+        
+            <asp:ContentPlaceHolder ID="Body" runat="server">
+
+            </asp:ContentPlaceHolder>
+       
+        </form>
+</body>
+  
+</html>
